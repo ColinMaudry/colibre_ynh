@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "decpinfo"
-name = "decp.info"
+id = "colibre"
+name = "colibre"
 description.en = "Exploration interface to explore French Open public procurement data."
 description.fr = "Exploration des données essentielles de la commande publique françaises."
 
@@ -14,9 +14,9 @@ maintainers = ["ColinMaudry"]
 [upstream]
 # NB: Only the"license" key is mandatory. Remove entries for which there's no relevant data
 license = "GPLv3" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
-website = "https://decp.info"
-demo = "https://decp.info"
-code = "https://github.com/ColinMaudry/decp.info"
+website = "https://colibre.fr"
+demo = "https://colibre.fr"
+code = "https://github.com/ColinMaudry/colibre"
 # FIXME: optional but recommended if relevant, this is meant to contain the Common Platform Enumeration, which is
 # sort of a standard id for applications defined by the NIST. In particular, YunoHost may use this is in the future
 # to easily track CVE (=security reports) related to apps. The CPE may be obtained by searching here:
@@ -27,7 +27,7 @@ code = "https://github.com/ColinMaudry/decp.info"
 # FIXME: optional but recommended (or remove if irrelevant / not applicable).
 # This is meant to be an URL where people can financially support this app, especially when its development is based
 # on volunteers and/or financed by its community. YunoHost may later advertise it in the webadmin.
-fund = "https://github.com/ColinMaudry/decp.info"
+fund = "https://github.com/ColinMaudry/colibre"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -88,7 +88,7 @@ ram.runtime = "50M"
     # This will pre-fetch the asset which can then be deployed during the install/upgrade scripts with :
     #    ynh_setup_source --dest_dir="$install_dir"
     # You can also define other assets than "main" and add --source_id="foobar" in the previous command
-    url = "https://github.com/ColinMaudry/decp.info/archive/refs/heads/main.zip"
+    url = "https://github.com/ColinMaudry/colibre/archive/refs/heads/main.zip"
     sha256 = "1b46cc7e625164afccb7c3d71edb27f5dc36556b7c3655db4948a1949bab9cbe"
 
 

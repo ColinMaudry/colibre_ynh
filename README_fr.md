@@ -15,14 +15,14 @@ N.B. : Ce README a été généré automatiquement par https://github.com/YunoHo
 Il ne doit PAS être édité à la main.
 -->
 
-# Exemple d'app pour YunoHost
+# colibre pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/example.svg)](https://dash.yunohost.org/appci/app/example) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/example.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/example.maintain.svg)  
-[![Installer Example app avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=example)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/colibre.svg)](https://dash.yunohost.org/appci/app/colibre) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/colibre.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/colibre.maintain.svg)  
+[![Installer colibre avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=colibre)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Example app rapidement et simplement sur un serveur YunoHost.
+> *Ce package vous permet d'installer colibre rapidement et simplement sur un serveur YunoHost.
 Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
@@ -40,11 +40,11 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 
 **Version incluse :** 1.0~ynh1
 
-**Démo :** https://demo.example.com
+**Démo :** https://colibre.fr
 
 ## Captures d'écran
 
-![Capture d'écran de Example app](./doc/screenshots/example.jpg)
+![Capture d'écran de colibre](./doc/screenshots/colibre.jpg)
 
 ## Avertissements / informations importantes
 
@@ -63,7 +63,7 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://example.com>
+* Site officiel de l'app : <https://colibre.fr>
 * Documentation officielle utilisateur : <https://yunohost.org/apps>
 * Documentation officielle de l'admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l'app : <https://some.forge.com/example/example>
