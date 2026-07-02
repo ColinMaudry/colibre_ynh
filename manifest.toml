@@ -85,6 +85,10 @@ default = "visitors"
 [resources.sources]
 
 [resources.sources.main]
+# This will pre-fetch the asset which can then be deployed during the install/upgrade scripts with :
+#    ynh_setup_source --dest_dir="$install_dir"
+# You can also define other assets than "main" and add --source_id="foobar" in the previous command
+url = "https://github.com/ColinMaudry/colibre/archive/refs/heads/dev.zip"
 sha256 = "22426ea029e5d44b2360389cb40f45dad949a27efa2d4059e42249084e472ad6"
 
 
@@ -122,7 +126,3 @@ packages = "build-essential, python3-dev, python3-pip, python3-venv"
 #    [resources.database]
 #    # This will automatically provision/deprovison a MySQL DB and store the corresponding credentials in settings $db_user, $db_name, $db_pwd
 #    type = "mysql"
-url = "https://github.com/ColinMaudry/colibre/archive/refs/heads/dev.zip"
-# This will pre-fetch the asset which can then be deployed during the install/upgrade scripts with :
-#    ynh_setup_source --dest_dir="$install_dir"
-# You can also define other assets than "main" and add --source_id="foobar" in the previous command
